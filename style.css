@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, arial;
+}	
+body {
+    background:   url("abstract.jpg");
+   background-repeat: repeat-x;
+       	margin: 0 auto 0 auto;
+}
+#wrapper{
+		max-width: 1000px;
+       	margin: 0 auto 0 auto;
+	}
+/*picture in headerze */
+header img{
+		width: 100%;
+		display: block;
+        
+	}
+
+nav {
+    background-color: rgb(227, 15, 11);
+	/*list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     width: 200px;*/
+		}
+		
+nav a{
+	display: inline-block;
+	width: 19%;
+    color: white;
+	text-align: center;
+	padding: 11px 15px;
+	text-decoration: none;
+    
+	}
+	
+nav a:hover {
+		font-size: 21px ;
+		background-color: rgb(252,202,21);
+	}
+#text{
+        text-align: justify;
+    float: left;
+    padding-left: 10px;
+    max-width: 1000px;
+    margin-left: 25px
+}
+article{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		padding:0 20px;
+	}
+	
+body h1{
+		font-size: 30px;
+		text-align: center;
+		width: auto;
+		margin: 10px 30% 10px 30%;
+		padding-bottom: 25px;
+		/*border-bottom: 5px solid crimson;*/
+	}
+	
+article p {
+		
+		text-align: center;
+		line-height: 35px;
+		font-size: 35px;
+		padding: 15px 0 15px 0;
+	}
+
+main {
+    padding: 5px;
+    background-image: url(paper.png);
+    /*position: ;
+    left: 250px;
+    max-width: 700px;
+    text-align: justify;*/
+}
+	
+
+footer {
+    height: 40px;
+    background-color:none;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#attencion{
+    text-align: center;
+}
+
+#tekst{
+font-size: 20px;
+font-weight: normal;
+padding-top: 20px;
+    
+}
+
+/*JAVASCRIPT STYLE*/
+
+#button{ 
+	background-color: rgb(156, 194,13);
+	font-size: 20px;
+	color: white;
+	padding: 14px 40px;
+	border-radius: 10px;
+	border:2px solid ;
+	display:inline-block;
+    box-shadow: 5px 5px 5px grey;
+
+	}
+	
+#button:hover{
+		background-color: black;
+		color: white;
+	}
+	
+.centent{
+		text-align: center;
+	}
+#name{
+		display:inline-block;
+		font-size: 20px;
+		padding: 14px 40px;
+	    border-radius: 4px;
+       box-shadow: 5px 5px 5px grey;
+    text-align: center;
+	}
+
+#content{
+    text-align: center;
+}
+
+/*CV*/
+
+#img{
+    border-radius: 10px;
+}
+
+main{
+    margin-top: 20px;
+		margin-bottom: 30px;
+		padding:10px 40px;
+}
+#red{
+    color: red;
+}
+
+.cl{
+    text-align: right;
+}
+
+/*about web site*/
+
+#abou{
+    text-align: justify; 
+}
